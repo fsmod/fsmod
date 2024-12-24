@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Farming Simulator 2025 Modifikacijos">
+    <title>Apie</title>
+    <style>
+        /* Bendras stilius */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1a1a1a; /* Tamsiai pilka */
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-image: url('https://example.com/farming-header.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: white;
+            padding: 150px 0;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+            z-index: 1;
+            animation: fadeInHeader 1s ease-out;
+        }
+        header h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #b5e300;
+        }
+        header p {
+            font-size: 1.3rem;
+            margin-top: 10px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #f5f5f5;
+        }
+
+        @keyframes fadeInHeader {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Navigacija */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: background-color 0.3s ease;
+        }
+        nav a {
+            color: #b5e300;
+            font-size: 1.1rem;
+            padding: 15px 20px;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #0073e6;
+            color: white;
+        }
+
+        /* Pagrindinis turinys */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 40px;
+            background-color: #222;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: #b5e300;
+        }
+
+        .mod-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        .mod-item {
+            background-color: #333;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+        .mod-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .mod-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .mod-item-content {
+            padding: 25px;
+            transition: background-color 0.3s ease;
+        }
+        .mod-item-content:hover {
+            background-color: #444;
+        }
+        .mod-item h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #f5f5f5;
+        }
+        .mod-item p {
+            font-size: 1rem;
+            color: #bbb;
+            margin-bottom: 20px;
+        }
+        .mod-item a {
+            background-color: #0073e6;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .mod-item a:hover {
+            background-color: #005bb5;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: #b5e300;
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Farming Simulator 2025 Modifikacijos</h1>
+    <p>Įgykite geresnę žaidimo patirtį su unikaliais ir naudingais modais!</p>
+</header>
+
+<nav>
+    <td><a href="Pagrindinis.html">Pagrindinis</a></td>
+    <td><a href="Modifikacijos.html">Modifikacijos</a></td>
+    <td><a href="Apie.html">Apie</a></td>
+    <td><a href="Kontaktai.html">Kontaktai</a></td>
+</nav>
+
+<div class="container">
+</div>
+
+<footer>
+    <p>&copy; 2024 Farming Simulator 2025 Modifikacijos. Visos teisės saugomos.</p>
+</footer>
+
+</body>
+</html>

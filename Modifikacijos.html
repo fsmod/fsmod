@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="lt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Farming Simulator 2025 Modifikacijos">
+    <title>Modifikacijos</title>
+    <style>
+        /* Bendras stilius */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #1a1a1a; /* Tamsiai pilka */
+            color: #f5f5f5;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-image: url('https://example.com/farming-header.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: white;
+            padding: 150px 0;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            position: relative;
+            z-index: 1;
+            animation: fadeInHeader 1s ease-out;
+        }
+        header h1 {
+            font-size: 4rem;
+            font-weight: bold;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #b5e300;
+        }
+        header p {
+            font-size: 1.3rem;
+            margin-top: 10px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            color: #f5f5f5;
+        }
+
+        @keyframes fadeInHeader {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Navigacija */
+        nav {
+            background-color: rgba(0, 0, 0, 0.7);
+            text-align: center;
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            transition: background-color 0.3s ease;
+        }
+        nav a {
+            color: #b5e300;
+            font-size: 1.1rem;
+            padding: 15px 20px;
+            display: inline-block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+        nav a:hover {
+            background-color: #0073e6;
+            color: white;
+        }
+
+        /* Pagrindinis turinys */
+        .container {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 40px;
+            background-color: #222;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+            color: #b5e300;
+        }
+
+        /* Modifikacijų langelių struktūra */
+        .mod-list {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 langeliai eilutėje */
+            gap: 30px;
+        }
+        .mod-item {
+            background-color: #333;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
+        .mod-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        .mod-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .mod-item-content {
+            padding: 25px;
+            transition: background-color 0.3s ease;
+        }
+        .mod-item-content:hover {
+            background-color: #444;
+        }
+        .mod-item h3 {
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+            color: #f5f5f5;
+        }
+        .mod-item p {
+            font-size: 1rem;
+            color: #bbb;
+            margin-bottom: 20px;
+        }
+        .mod-item a {
+            background-color: #0073e6;
+            color: white;
+            padding: 12px 18px;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+        .mod-item a:hover {
+            background-color: #005bb5;
+            transform: scale(1.05);
+        }
+
+        /* Footer */
+        footer {
+            background-color: #222;
+            color: #b5e300;
+            text-align: center;
+            padding: 20px;
+            font-size: 1rem;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Farming Simulator 2025 Modifikacijos</h1>
+    <p>Įgykite geresnę žaidimo patirtį su unikaliais ir naudingais modais!</p>
+</header>
+
+<nav>
+    <a href="Pagrindinis.html">Pagrindinis</a>
+    <a href="Modifikacijos.html" id="toggle-mods">Modifikacijos</a>
+    <a href="Apie.html">Apie</a>
+    <a href="Kontaktai.html">Kontaktai</a>
+</nav>
+
+<div class="container">
+    <h2>Galerija</h2>
+
+    <!-- Modifikacijos: 4 eilutės po 3 langelius kiekvienoje -->
+    <div class="mod-list">
+        <!-- 1 eilutė -->
+        <div class="mod-item">
+            <img src="NO/j1.jpg" alt="Traktorius John Deere">
+            <div class="mod-item-content">
+                <h3>John Deere            </h3>
+                <p>John Deere - tai ne tik technika, tai lauko čempionas.</p>
+                <a href="https://drive.google.com/file/d/17F2LtC9-l-VXlEbBpomnNf9DYNEGBqCv/view?usp=sharing" download>Parsisiųsti modą</a>
+            </div>
+        </div>
+        <div class="mod-item">
+            <img src="NO/k1.jpg" alt="Traktorius Case IH">
+            <div class="mod-item-content">
+                <h3>Javų Derliaus Nuėmimas</h3>
+                <p>Sunkus darbas šiandien - pilni aruodai rytoj.</p>
+                <a href="https://drive.google.com/file/d/17F2LtC9-l-VXlEbBpomnNf9DYNEGBqCv/view?usp=sharing" download>Parsisiųsti modą</a>
+            </div>
+        </div>
+        <div class="mod-item">
+            <img src="NO/h1.jpg" alt="Sėjos mašina">
+            <div class="mod-item-content">
+                <h3>New Holland</h3>
+                <p>Patikimumas ir galia - tai New Holland, vedantis į derliaus pergagę.</p>
+                <a href="https://drive.google.com/file/d/17F2LtC9-l-VXlEbBpomnNf9DYNEGBqCv/view?usp=sharing" download>Parsisiųsti modą</a>
+            </div>
+        </div>
+        
+        <!-- 2 eilutė -->
+        <div class="mod-item">
+            <img src="NO/h2.jpg" alt="Grūdų kombainas">
+            <div class="mod-item-content">
+                <h3>Claas</h3>
+                <p>Jėga tikslumas ir efektyvumas - CLAAS kuriantys tavo derliaus sėkmę.</p>
+                <a href="https://drive.google.com/file/d/17F2LtC9-l-VXlEbBpomnNf9DYNEGBqCv/view?usp=sharing" download>Parsisiųsti modą</a>
+            </div>
+        </div>
+        <div class="mod-item">
+            <img src="NO/h0.jpg" alt="Farming trailer">
+            <div class="mod-item-content">
+                <h3>Gyvulinkystė</h3>
+                <p>Su sveikais gyvūnais - sveikas ūkis, o su sveiku ūkiu - tvari ateitis.</p>
+                <a href="https://drive.google.com/file/d/17F2LtC9-l-VXlEbBpomnNf9DYNEGBqCv/view?usp=sharing" download>Parsisiųsti modą</a>
+            </div>
+        </div>
+        <div class="mod-item">
+            <img src="NO/h3.jpg" alt="Farming Tractor">
+            <div class="mod-item-content">
+                <h3>Case IH</h3>
+                <p>Case IH - tai technika, kuri paverčia sunkų darbą lengvu ir efektyviu.</p>
+                <a href="https://drive.google.com/file/d/17F2LtC9-l-VXlEbBpomnNf9DYNEGBqCv/view?usp=sharing" download>Parsisiųsti modą</a>
+            </div>
+        </div>
+        
+        <!-- 3 eilutė -->
+        <div class="mod-item">
+            <img src="NO/s1.png" alt="Mod 7">
+            <div class="mod-item-content">
+                <h3>Miškininkai</h3>
+                <p>Miškininkai - tai gamtos sargai, kuriantys tvarią ateitį mūsų miškams.</p>
+                <a href="#">Parsisiųsti modą</a>
+            </div>
+        </div>
+        <div class="mod-item">
+            <img src="NO/s3.jpg" alt="Mod 8">
+            <div class="mod-item-content">
+                <h3>Veteranas</h3>
+                <p>Man jau 80 metų, bet kiekvieną rytą pradedu su šypsena, nes žinau, kad kiekviena diena atneša naują galimybę kurti, bei auginti.</p>
+                <a href="#">Parsisiųsti modą</a>
+            </div>
+        </div>
+        <div class="mod-item">
+            <img src="NO/s2.jpg" alt="Mod 9">
+            <div class="mod-item-content">
+                <h3>Valtra</h3>
+				<p>Galia, patikimumas ir išskirtinis našumas - Valtra technika, kuri nesustoja.</p>
+				<a href="#">Parsisiųsti modą</a>
+			</div>
+		</div>
